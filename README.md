@@ -6,7 +6,7 @@ Hive enables SQL developers to write Hive Query Language (HQL) statements that a
 It is designed to make MapReduce programming easier because we don’t have to know and write lengthy Java code. Instead, we can write queries more simply in HQL, and Hive can then create the map and reduce the functions.<br>
 Hive is better suited for data warehousing tasks such as extract/transform/load (ETL), reporting and data analysis and includes tools that enable easy access to data via SQL.
 <h3> Hive Architecture </h3>
-<img align="center" alt="Architecture" width = 700 src="">
+<img align="center" alt="Architecture" width = 700 src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-4-3.png">
 
 
 
