@@ -8,6 +8,29 @@ Hive is better suited for data warehousing tasks such as extract/transform/load 
 <h3> Hive Architecture </h3>
 <img align="center" alt="Architecture" width = 700 src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-4-3.png">
 
+<h4> Create table in hive CLI and dump a csv file data in the table</h4>
+
+```
+create table department_data
+(dept_id int,
+dept_name string,
+manager_id int)
+row format delimited
+fields terminated by ',';
+```
+
+<h4> To see table primary info of Hive table, use the following command </h4>
+
+```
+describe table_name;
+```
+
+<h4> To see code in a clean manner use the following command </h4>
+
+```
+describe formatted table_name;
+```
+
 
 
 
