@@ -1,3 +1,4 @@
+
 <h4>Create Database in hive </h4>
 
 ```
@@ -33,3 +34,29 @@ describe formatted department1;
 ```
 <br>
 <img align="center" alt="hive_desc_formatted" width = 600 src="https://user-images.githubusercontent.com/88526990/221818124-2ca806f5-a1c9-4ecf-99b0-3eba6a7cee44.jpg"><br>
+
+
+
+<br>
+<h2> load data from local system into hive table </h2>
+
+<img align="center" alt="load_file_into-HDFS" width = 600 src="https://user-images.githubusercontent.com/88526990/222089185-ba9e0c2c-b146-4f20-a5f7-07c4022ffb53.jpg"><br>
+
+**we want to insert the data of department_data.csv into hive table, for that purpose use the following command.**
+
+
+
+```
+LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/data/depart_data.csv' into table department_data;
+```
+
+<h4>Display column name of hive table </h4>
+
+```
+set hive.cli.print.header = true;
+```
+
+
+
+
+
